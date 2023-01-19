@@ -1,0 +1,190 @@
+#timer_cart {
+  box-sizing: border-box;
+  padding: 210px 0;
+  margin-bottom: 90px;
+  margin-top: 40px;
+  background-color: #f8f8f9;
+  .left_side {
+    background-color: white;
+    border-radius: 40px;
+    z-index: 17;
+    .cart-time {
+      padding: 25px;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      gap: 10px;
+      h3 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+      }
+      .middle_side {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+
+        .inner_left_cart {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 10px;
+          img {
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 20px;
+          }
+          .inner_left_cart_text {
+            p {
+              margin: 0px;
+              padding: 0px;
+            }
+            span {
+              font-size: 12px;
+              color: #5b5b5b;
+            }
+          }
+        }
+        .inner_right_cart {
+          align-items: center;
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          img {
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 20px;
+          }
+          .inner_left_cart_text {
+            p {
+              margin: 0px;
+              padding: 0px;
+            }
+            span {
+              font-size: 12px;
+              color: #5b5b5b;
+            }
+          }
+        }
+      }
+      .sec1_form {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+        .current_value {
+          border: 3px solid rgb(51, 237, 51);
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 15px;
+          width: 90%;
+          border-radius: 15px;
+          padding: 25px;
+          span {
+            &:nth-child(1) {
+              color: rgb(51, 237, 51);
+              font-weight: 700;
+              font-size: 38px;
+            }
+            &:nth-child(2) {
+              font-size: 17px;
+              color: grey;
+            }
+          }
+        }
+      }
+
+      .time-field {
+        padding: 20px 37px;
+        width: 66%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        .time {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          p {
+            margin: 0px;
+            padding: 0px;
+
+            font-size: 29px;
+            color: black;
+            font-weight: 700;
+          }
+          span {
+            font-size: 14px;
+            color: grey;
+          }
+        }
+      }
+      .sec2_click {
+        padding: 20px 0 0 0;
+        border-top: 1px solid rgb(224, 224, 224);
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-direction: row;
+        justify-content: center;
+
+        a {
+          &:nth-child(1) {
+            text-decoration: none;
+            font-size: 12px;
+            color: white;
+            background-color: rgba(61, 61, 255, 0.74);
+            padding: 20px 75px;
+
+            border-radius: 40px;
+            transition: 0.2s ease-in-out;
+            &:hover {
+              background-color: rgb(61, 61, 255);
+            }
+          }
+          &:nth-child(2) {
+            text-decoration: none;
+            font-size: 12px;
+            color: black;
+            background-color: white;
+            padding: 20px 75px;
+
+            border-radius: 40px;
+            transition: 0.2s ease-in-out;
+            border: 1px solid rgb(195, 195, 195);
+
+            &:hover {
+              background-color: rgb(226, 226, 226);
+            }
+          }
+        }
+      }
+      #ending_time {
+        display: flex;
+        align-items: center;
+        margin: 4px 0;
+        padding: 0px;
+      }
+    }
+  }
+
+  .right_side {
+    margin: -80px;
+    z-index: 13;
+    img {
+      border: 10px solid white;
+      border-radius: 40px;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

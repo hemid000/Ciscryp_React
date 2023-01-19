@@ -1,0 +1,122 @@
+#creator-cart {
+  margin-top: 90px;
+  margin-bottom: 90px;
+
+  .text_span {
+    span {
+      &:nth-child(1) {
+        color: black;
+        font-size: 40px;
+        margin-right: 10px;
+      }
+      &:nth-child(2) {
+        cursor: pointer;
+
+        color: green;
+        font-size: 40px;
+      }
+    }
+  }
+  .sec3_cart {
+    transition: 0.2s ease-in-out;
+    padding: 30px 2px;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 30px;
+
+    .img {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      img {
+        &:nth-child(1) {
+          border-radius: 12px;
+          width: 63px;
+          height: 96px;
+          object-fit: cover;
+        }
+        &:nth-child(2) {
+          border-radius: 15px;
+          width: 96px;
+          height: 96px;
+          object-fit: cover;
+        }
+        &:nth-child(3) {
+          border-radius: 13px;
+          width: 80px;
+          height: 96px;
+          object-fit: cover;
+        }
+      }
+      .img-absolute {
+        display: flex;
+        position: absolute;
+        top: 68px;
+        right: 0px;
+        width: 100%;
+        justify-content: center;
+
+        img {
+          border-radius: 24px;
+          border: 3px solid white;
+          width: 48px;
+          height: 48px;
+          object-fit: cover;
+        }
+      }
+    }
+    .middle_cart {
+      margin-top: 27px;
+      .inner_left_cart {
+        justify-content: space-around;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        img {
+          cursor: pointer;
+          width: 40px;
+          height: 40px;
+          object-fit: cover;
+          border-radius: 20px;
+        }
+        .inner_left_cart_text {
+          p {
+            margin: 0px;
+            padding: 0px;
+          }
+          span {
+            font-size: 12px;
+            color: #5b5b5b;
+          }
+        }
+        a {
+          transition: 0.2s ease-in-out;
+          text-decoration: none;
+          color: white;
+          background-color: rgba(12, 12, 243, 0.753);
+          display: inline-block;
+          padding: 8px 34px;
+          border-radius: 21px;
+          &:hover {
+            background-color: rgb(30, 30, 236);
+          }
+        }
+      }
+    }
+    p {
+      font-size: 15px;
+      color: #4b4b4b;
+      padding: 0 17px;
+      margin: 20px 0;
+    }
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+  }
+}
