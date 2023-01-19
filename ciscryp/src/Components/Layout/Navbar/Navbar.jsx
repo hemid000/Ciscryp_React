@@ -5,11 +5,12 @@ import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiOutlineDown } from "react-icons/ai";
-import ReactSwitch from "react-switch";
+// import ReactSwitch from "react-switch";
+
 const Navbar = () => {
   return (
     <nav id="nav">
-      <div className="container mt-3">
+      <div className="container pt-3">
         <div className="row">
           <div className="col-5">
             <div className="left_Side">
@@ -39,7 +40,7 @@ const Navbar = () => {
                 </li>
                 <li>Help center</li>
               </ul>
-              <ReactSwitch></ReactSwitch>
+              {/* <ReactSwitch blogs = {blogs} onChange = {toggleTheme} checked= {theme === "dark"}></ReactSwitch> */}
               <ul id="create">
                 <li>Create</li>
               </ul>
