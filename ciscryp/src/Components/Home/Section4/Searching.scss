@@ -87,7 +87,13 @@
         &:hover {
           border: 1px solid rgb(0, 0, 0);
         }
+        @media (max-width: 400px) {
+          font-size: 13px;
+        }
       }
+    }
+    @media (max-width: 800px) {
+      display: none;
     }
   }
   .sec3_cart {
