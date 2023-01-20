@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
-import { createContext, useState } from "react";
 import "../Layout/Layout.scss";
 // export const ThemeContext = createContext(null);
 const Layout = ({ children }) => {

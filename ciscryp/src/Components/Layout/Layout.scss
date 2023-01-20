@@ -1,6 +1,62 @@
-#light {
-  background-color: aliceblue;
+body.light {
+  background: white;
+  color: black;
 }
-#dark {
-  background-color: rgb(0, 0, 0);
+body.dark {
+  background: rgb(6, 6, 49) !important;
+  color: white;
+
+  #nav {
+    #discover {
+      color: black;
+      background-color: white;
+    }
+    li {
+      color: white;
+    }
+    #darkMode {
+      color: white;
+    }
+  }
+  .left_side {
+    background-color: rgb(6, 6, 49) !important ;
+    background-image: none !important;
+    span {
+      color: white;
+    }
+  }
+  #timer_cart {
+    background-color: rgb(6, 6, 49);
+
+    .left_side {
+      background-color: rgb(5, 5, 33);
+      .time {
+        color: white;
+        p {
+          color: white !important;
+        }
+      }
+    }
+  }
+  #creator-cart {
+    span {
+      color: white !important;
+    }
+    p {
+      color: white;
+    }
+  }
+  #cart_filtering {
+    p {
+      color: white !important;
+    }
+    li {
+      color: white;
+    }
+    .list {
+      li {
+        color: black;
+      }
+    }
+  }
 }

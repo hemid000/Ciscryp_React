@@ -5,8 +5,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiOutlineDown } from "react-icons/ai";
-// import ReactSwitch from "react-switch";
-
+import Darkmode from "../../Darkmode/Darkmode";
 const Navbar = () => {
   return (
     <nav id="nav">
@@ -40,7 +39,7 @@ const Navbar = () => {
                 </li>
                 <li>Help center</li>
               </ul>
-              {/* <ReactSwitch blogs = {blogs} onChange = {toggleTheme} checked= {theme === "dark"}></ReactSwitch> */}
+              <Darkmode />
               <ul id="create">
                 <li>Create</li>
               </ul>
