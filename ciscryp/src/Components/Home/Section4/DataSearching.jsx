@@ -93,6 +93,14 @@ const DataSearching = () => {
             })}
         </div>
       </div>
+      <div className="container text-center btn-preloader">
+        <button>
+          <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          Show me more
+        </button>
+      </div>
     </section>
   );
 };

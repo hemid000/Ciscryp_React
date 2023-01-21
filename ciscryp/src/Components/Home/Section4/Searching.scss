@@ -165,4 +165,23 @@
         rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     }
   }
+  .btn-preloader {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    button {
+      display: flex;
+      align-items: center;
+      outline: none;
+      border: 1px solid rgb(213, 213, 213);
+      color: black;
+      background-color: white;
+      border-radius: 30px;
+      padding: 10px 18px;
+      .spinner-border {
+        font-size: 8px;
+        margin-right: 10px;
+      }
+    }
+  }
 }
