@@ -1,5 +1,5 @@
 import React from "react";
-import "../Section3/Creators.scss";
+import "../Section5/Creators.scss";
 import { TiTickOutline } from "react-icons/ti";
 import { AiOutlineDown } from "react-icons/ai";
 const Creators = () => {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Section4/Searching.scss";
+import "../Section3/Searching.scss";
 
 import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";

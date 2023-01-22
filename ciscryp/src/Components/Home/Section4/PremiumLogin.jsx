@@ -1,5 +1,5 @@
 import React from "react";
-import "../Section5/Premium.scss";
+import "../Section4/Premium.scss";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
