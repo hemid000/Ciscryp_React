@@ -1,8 +1,18 @@
 body.light {
   background: white;
   color: black;
+  #dark-mode-img {
+    display: none;
+  }
 }
 body.dark {
+  #home_img {
+    display: none;
+  }
+  #dark-mode-img {
+    display: block;
+  }
+
   background: rgb(6, 6, 49) !important;
   color: white;
 
@@ -12,15 +22,16 @@ body.dark {
       background-color: white;
     }
     li {
-      color: white;
+      color: white !important;
     }
     #darkMode {
-      color: white;
+      color: white !important;
     }
   }
   .left_side {
     background-color: rgb(6, 6, 49) !important ;
     background-image: none !important;
+    border: none !important;
     span {
       color: white;
     }
@@ -58,6 +69,20 @@ body.dark {
         color: black;
       }
     }
+  }
+  #PremiumLogin {
+    background-color: rgb(6, 6, 49) !important ;
+    background-image: none !important;
+
+    ul {
+      li {
+        color: white;
+      }
+    }
+  }
+  #swiper-collect {
+    background-color: rgb(6, 6, 49) !important ;
+    background-image: none !important;
   }
   #foot {
     ul {

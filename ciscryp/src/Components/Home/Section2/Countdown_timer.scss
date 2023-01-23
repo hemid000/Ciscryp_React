@@ -18,6 +18,9 @@
         text-align: center;
         font-size: 40px;
         font-weight: 600;
+        @media (max-width: 800px) {
+          font-size: 33px;
+        }
       }
       .middle_side {
         display: flex;
@@ -92,10 +95,17 @@
               color: rgb(51, 237, 51);
               font-weight: 700;
               font-size: 38px;
+
+              @media (max-width: 500px) {
+                font-size: 30px;
+              }
             }
             &:nth-child(2) {
               font-size: 17px;
               color: grey;
+              @media (max-width: 500px) {
+                font-size: 15px;
+              }
             }
           }
         }
@@ -145,6 +155,9 @@
 
             border-radius: 40px;
             transition: 0.2s ease-in-out;
+            @media (max-width: 501px) {
+              padding: 13px 42px;
+            }
             &:hover {
               background-color: rgb(61, 61, 255);
             }
@@ -162,6 +175,9 @@
 
             &:hover {
               background-color: rgb(226, 226, 226);
+            }
+            @media (max-width: 501px) {
+              padding: 13px 42px;
             }
           }
         }
@@ -185,6 +201,9 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+    }
+    @media (max-width: 872px) {
+      margin: 0px;
     }
   }
 }

@@ -15,8 +15,8 @@ const Creators = () => {
       </div>
 
       <div className="container mt-5">
-        <div className="row g-3">
-          <div className="col-lg-3">
+        <div className="row g-5">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="sec3_cart">
               <div className="img">
                 <img
@@ -61,7 +61,7 @@ const Creators = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="sec3_cart">
               <div className="img">
                 <img
@@ -106,7 +106,7 @@ const Creators = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="sec3_cart">
               <div className="img">
                 <img
@@ -151,7 +151,7 @@ const Creators = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="sec3_cart">
               <div className="img">
                 <img
@@ -196,7 +196,7 @@ const Creators = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="sec3_cart">
               <div className="img">
                 <img
@@ -241,7 +241,7 @@ const Creators = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="sec3_cart">
               <div className="img">
                 <img
@@ -286,7 +286,7 @@ const Creators = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="sec3_cart">
               <div className="img">
                 <img
@@ -331,7 +331,7 @@ const Creators = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="sec3_cart">
               <div className="img">
                 <img

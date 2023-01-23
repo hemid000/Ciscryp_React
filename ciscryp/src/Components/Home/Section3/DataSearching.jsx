@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../Section3/Searching.scss";
-
 import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -70,8 +69,11 @@ const DataSearching = () => {
                 : el.headline.toLocaleLowerCase().includes(search);
             }).map((el) => {
               return (
-                <div className="col-lg-3" key={el.id}>
-                  <div className="sec3_cart">
+                <div
+                  key={`data_id${el.id}`}
+                  className="col-lg-3 col-sm-6 col-md-6 "
+                >
+                  <div className="sec3_cart ">
                     <div className="img">
                       <img src={el.imgSrc} alt="" />
                     </div>
@@ -95,8 +97,8 @@ const DataSearching = () => {
       </div>
       <div className="container text-center btn-preloader">
         <button>
-          <div class="spinner-border" role="status">
-            <span class="visually-hidden">Loading...</span>
+          <div className="spinner-border" role="status">
+            <span className="visually-hidden">Loading...</span>
           </div>
           Show me more
         </button>

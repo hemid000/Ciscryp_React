@@ -32,6 +32,36 @@ const SwiperCollections = () => {
             pagination={{
               clickable: true,
             }}
+            breakpoints={{
+              300: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              400: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              500: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              600: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+              },
+            }}
             navigation={true}
             modules={[Pagination, Navigation]}
             className="mySwiper"
